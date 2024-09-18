@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class Die {
     private int currentValue;
-    private int numSides;
+    private final int numSides;
     private final Random random;
     /**
      * Die constructor
